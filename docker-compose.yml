@@ -24,6 +24,7 @@ services:
     ports:
       - "5000:5000"
       - "5101:5101"
+      - "5200:5200"
     environment:
       LS_JAVA_OPTS: "-Xmx256m -Xms256m"
     networks:
